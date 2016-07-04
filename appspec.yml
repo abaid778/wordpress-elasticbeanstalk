@@ -18,5 +18,5 @@ hooks:
    AfterInstall:
     - location: scripts/change_permissions.sh
       runas: root
-    - location: scripts/startapache.sh
+    - location: scripts/stop_server.sh
       runas: root
